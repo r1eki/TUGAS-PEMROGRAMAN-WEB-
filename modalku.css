@@ -1,0 +1,95 @@
+body{color: #666;font-size: 17px;
+  font-family: "Roboto", sans-serif; }
+
+.bg-transparent{background-color: transparent;}
+
+.feather {
+  width: 16px;
+  height: 16px;
+ 
+}
+.navbar-brand{vertical-align: middle}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.navbar-nav .nav-link {font-size: 15px;font-weight: 500;
+}
+@media (min-width: 768px) {
+  .p-fixed-top{padding: 41px;}
+  .navbar.navbar-a {
+  padding: 20px 10px;
+}
+  .navbar{
+  padding: 10px 10px;
+  transition: padding 0.1s linear;
+
+}
+.dropdown-menu {
+    position: fixed!important;
+    top: auto;
+    right: 0;
+    left: auto;
+    margin-top:12px;
+    z-index: 1000;
+    display: none;
+    min-width: 100%;
+    min-height: 100px;
+    border:0;
+    border-radius: 0;
+    background-color: #fff;
+    animation:opac 0.5s;
+    font-size: 15px;
+}
+.navbar.navbar-a .dropdown-menu{margin-top: 22px}
+}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+@media (max-width: 768px) {
+.p-fixed-top{padding: 30px;}
+.display-4{font-size: 25px;font-weight: 400;}
+.dropdown-menu{padding: 0!important;border:0!important;}
+.dropdown-menu .container{padding: 0!important;}
+}
+.list-group-dropdown-menu .list-group-item {
+    padding: 4px 4px;border:0;color: #333;
+}
+.list-group-dropdown-menu .list-group-item:hover {
+    padding: 4px 16px;border:0;color: #fff;background-color: #2f9bee;
+    background-image: linear-gradient( to right, #2f9bee, #47c9e5 );
+}
+.btn-primary.btn-6666688gradient{
+  background-color: #007bff;
+    background-image: linear-gradient( to right, #007bff, #0069d9 );
+  }
+.btn-danger.btn-gradient{
+  background-color: #dc3545;
+    background-image: linear-gradient( to right, #dc3545, #c82333 );
+  }
+.card-img-overlay{display: none}
+.card:hover .card-img-overlay{display: block;background-color: rgba(0,0,0,0.5);animation:opac 0.2s;}
+.carousel {
+ overflow: hidden;
+}
+.card-fa{border: 0;}
+.card-fa .card-body{padding: 10px;}
+.card-fa .card-footer{border:0;padding: 0 10px;background-color: transparent;color:#666;}
+.card-fa .fa{font-size:100px;color: #aaa}
+.card-title {
+    margin-bottom: 0;
+}
+.card-text{
+  margin-bottom: 0;
+}
+.card{border:0;}
+.jumbotron {
+    margin-bottom: 0;
+}
+.color666{color: #666}
+footer{font-size: 14px}
+a.text-light{text-decoration: none}
+.breadcrumb {
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0;
+}
