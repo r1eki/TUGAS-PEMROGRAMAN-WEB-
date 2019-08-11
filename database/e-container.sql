@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Waktu pembuatan: 11 Agu 2019 pada 05.13
+-- Waktu pembuatan: 11 Agu 2019 pada 18.58
 -- Versi server: 10.1.37-MariaDB
 -- Versi PHP: 7.3.1
 
@@ -1962,7 +1962,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `nama`, `username`, `password`, `level`) VALUES
 (1, 'Burliburliburmantabjiwa', 'user', '753b9440308bb66420d4e6ef2f75b5fc', 'admin'),
-(2, 'Diki Alfarabi Hadi', 'diki', 'dffaa4c60a250f19dc4a79b1d05c8d53', 'pegawai'),
+(2, 'Diki Alfarabi Hadi', 'diki', 'dffaa4c60a250f19dc4a79b1d05c8d53', 'user'),
 (3, 'Jamaludin', 'jamaludin', 'jamaludin123', 'pegawai');
 
 -- --------------------------------------------------------

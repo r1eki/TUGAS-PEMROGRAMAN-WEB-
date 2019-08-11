@@ -63,7 +63,7 @@
       <div class="sidebar-heading">
         Interface
       </div>
-<?php if ($_SESSION["level"] == 'admin' || $_SESSION["level"] == 'user' ){?>
+<?php if ($_SESSION["level"] == 'admin'){?>
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
@@ -92,7 +92,7 @@
            </div>
         </div>
       </li>
-
+<?php } ?>
       <!-- Divider -->
       <hr class="sidebar-divider">
 
@@ -102,7 +102,7 @@
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
-      
+<?php if ($_SESSION["level"] == 'admin' || $_SESSION["level"] == 'user' ){?>      
       <!-- Nav Item - Charts -->
       <li class="nav-item">
         <a class="nav-link" href="?page=buku_tamu">
@@ -116,7 +116,7 @@
           <i class="fas fa-fw fa-table"></i>
           <span>Logout</span></a>
       </li>
-
+<?php } ?>
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 
@@ -295,7 +295,7 @@
   </a>
 
 
-<?php } ?>
+
 	<?php 
 	if(isset($_GET['page'])){
 		$page = $_GET['page'];
